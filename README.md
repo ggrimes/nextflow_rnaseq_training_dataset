@@ -7,7 +7,10 @@ Step to generate of a small RNA-Seq training dataset.
 
 Dataset download from ArrayExpress [E-MTAB-4044](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4044/) - 
 
-## Descriptipn
+## Description
+
+
+## Experiment Design
 
 Title: Response to different types of stress converge in mitochondrial metabolism 
 The budding yeast Saccharomyces cerevisiae was used to study 9 different stress conditions in chemostat conditions at constant specific growth rate.
@@ -15,6 +18,8 @@ The budding yeast Saccharomyces cerevisiae was used to study 9 different stress 
 |Name|Descripton|
 |-|-|
 |Organism|Saccharomyces cerevisiae|
+|Sequencer| Illumina HiSeq2000|
+|RNA Sequencingn|The Illumina TruSeq sample preparation kit v2 (Illumina, San Diego, California, United States), with poly-A selection, was used to prepare RNA samples for sequencing. Fragments were clustered on cBot and sequenced on two lanes on an Illumina HiSeq 2500 with paired ends (2x100bp), according to the manufacturer's instructions|
 Experiment types|RNA-seq of coding RNA, case control design, dose response design, growth condition design, stimulus or stress design|
 |citation|Lahtvee P-J, Sánchez BJ, Smialowska A, et al. Absolute quantification of protein and mrna abundances demonstrate variability in gene-specific translation efficiency in yeast. Cell Syst. 2017;4(5):495-504.e5.|
 |DOI|[10.1016/j.cels.2017.03.003](https://doi.org/10.1016/j.cels.2017.03.003)]
