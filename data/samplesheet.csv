@@ -1,0 +1,10 @@
+﻿sampleId,bam_url,name
+etoh60_1,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_128.bam,etoh60_1
+etoh60_2,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_129.bam,etoh60_2
+etoh60_3,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_130.bam,etoh60_3
+ref1,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_101.bam,ref1
+ref2,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_102.bam,ref2
+ref3,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_103.bam,ref3
+temp33_1,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_104.bam,temp33_1
+temp33_2,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_105.bam,temp33_2
+temp33_3,https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-4044/E-MTAB-4044.P569_106.bam,temp33_3
