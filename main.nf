@@ -24,7 +24,7 @@ bam_ch =   Channel.fromPath(params.samplesheet)
 
 process get_transcriptome {
 
-  publishDir "data/yeast/transcriptome"
+  publishDir "data/yeast/transcriptome",  mode:"copy"
 
   input:
   val transcriptome_url from params.transcriptome
@@ -68,13 +68,14 @@ process bam2fq {
   tuple val(sample_id), path(bam) from bam_sample_ch
 
   output:
-  path "*.fq" into fq_out
+  path "*.fq.gz" into fq_out
 
 
   script:
   """
   #bedtools bamToFastq to convert reads
   bamToFastq -i  ${bam} -fq ${sample_id}_1.fq -fq2 ${sample_id}_2.fq
+  gzip *.fq
   """
 
 }
