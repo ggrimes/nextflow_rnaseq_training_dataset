@@ -4,7 +4,7 @@ read_ch = channel.fromFilePairs("data/yeast/reads/*_{1,2}.fq.gz",checkIfExists:t
 
 process index {
 
-    publishDir "data/yeast", mode:"copy"
+    
 
     input:
     path transcriptome from transcriptome_ch
